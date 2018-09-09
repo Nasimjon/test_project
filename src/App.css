@@ -1,0 +1,26 @@
+nav, nav ul, nav ul li{
+    margin: 0 10px;
+    padding: 0 10px;
+    list-style-type: none;
+    display: inline-block;
+}
+nav{
+    position: absolute;
+    top: 8%;
+    right: 25%;
+}
+a{
+    color: #3399ff;
+    text-decoration: none;
+    transition: 4s ease-in-out;
+    opacity: 0.5;
+    cursor: pointer;
+    font-style: normal;
+    font-family: Optima Regular;
+    font-size: 19px;
+    
+}a:hover{
+    transition: 3s ease-in-out;
+    opacity: 1;
+    color: #00264d;
+}
